@@ -1,0 +1,1 @@
+nohup mix phx.server 2>>explorer.log &

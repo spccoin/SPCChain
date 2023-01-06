@@ -1,0 +1,2 @@
+nohup: appending output to ‘nohup.out’
+time="2022-12-06T15:10:18+07:00" level=info msg="Starting http server 7080"

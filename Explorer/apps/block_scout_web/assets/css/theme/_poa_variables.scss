@@ -1,0 +1,90 @@
+// general
+$primary: #0D0F13;
+$secondary: #FFF;
+$tertiary: #fff;
+$additional-font: #fff;
+
+// footer
+$footer-background-color: #0C0F13;
+$footer-title-color: #fff;
+$footer-text-color: #0C0F13;
+$footer-item-disc-color: $secondary;
+.footer-logo { filter: brightness(0) invert(1); }
+
+// dashboard
+$dashboard-line-color-price: #ffffff; // price left border
+
+$dashboard-banner-chart-legend-label-color: #cccccc;
+$dashboard-stats-item-label-color: #ffffff;
+$dashboard-banner-chart-legend-value-color: #ffffff; // chart labels
+$dashboard-stats-item-value-color: #ffffff; // stat values
+
+$dashboard-stats-item-border-color: $secondary; // stat border
+
+$dashboard-banner-gradient-start: $primary; // gradient begin
+
+$dashboard-banner-gradient-end: lighten($primary, 5); // gradient end
+
+$dashboard-banner-network-plain-container-background-color: #11C1D9; // stats bg
+
+
+
+// navigation
+.navbar { box-shadow: 0px 0px 30px 0px rgba(21, 53, 80, 0.12); } // header shadow
+$dropdown-menu-item-hover-color: $primary !default;
+$dropdown-menu-item-hover-background: rgba($primary, .1) !default;
+$header-icon-color-hover: $primary;
+$header-icon-border-color-hover: $primary;
+
+// buttons
+$btn-line-bg: #fff; // button bg
+$btn-line-color: #151515; // button border and font color && hover bg color
+$btn-copy-color:  #151515; // btn copy
+$btn-qr-color:  #151515; // btn qr-code
+$btn-address-card-icon-color:  #151515; // btn address color
+$btn-contract-color:  #151515;
+
+//links & tile
+$tile-body-a-color: #1A8ECF;
+$tile-type-block-color: #203C8C;
+$tile-type-progress-bar-color: #1A8ECF;
+a.tile-title { color: #1A8ECF !important; }
+
+// card
+$card-background-1: $primary;
+$card-tab-active: $primary;
+
+.layout-container {
+	.dashboard-banner-container {
+	  background-image: linear-gradient(
+	    to bottom,
+	    $dashboard-banner-gradient-start,
+	    $dashboard-banner-gradient-end
+	  );
+	}
+}
+
+// Badges
+$badge-neutral-color: $primary;
+$badge-neutral-background-color: rgba($primary, .1);
+$api-text-monospace-color: $primary;
+
+// Tokens dropdown
+.token-balance-dropdown[aria-labelledby="dropdown-tokens"] {
+  .dropdown-items .dropdown-item:hover {
+    color: $primary !important;
+  }
+}
+
+.dashboard-banner-network-stats-item::before {
+	background-color: #ffffff !important;
+}
+.dashboard-banner-chart-legend .dashboard-banner-chart-legend-item:nth-child(2)::before {
+	background-color: #fff  !important;
+}
+
+
+// Dark theme
+$dark-primary: #9b62ff;
+$dark-secondary: #87e1a9;
+$dark-primary-alternate: #7e50d0; 

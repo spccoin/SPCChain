@@ -1,0 +1,1 @@
+nohup npm start 2>>chain.log &
